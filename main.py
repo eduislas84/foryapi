@@ -12,7 +12,7 @@ app = fastapi.FastAPI()
 
 origins = [
     "http://localhost:8080",
-    "https://heroku-mysql-frontend-ac0fa64dec05.herokuapp.com",
+    "https://dashboard.heroku.com/apps/appfory/access",
 ]
 
 app.add_middleware(
